@@ -1,0 +1,96 @@
+.block-about {
+    display        : flex;
+    flex-direction : column;
+    align-items    : center;
+    justify-content: space-between;
+}
+
+.about-menu {
+    display        : flex;
+    flex-direction : row;
+    justify-content: space-between;
+    align-items    : center;
+    margin-bottom  : 25px;
+}
+
+.about-menu__link {
+    display        : inline-block;
+    text-decoration: none;
+    border-radius  : 3px;
+    font-weight    : 400;
+    font-size      : 15px;
+    line-height    : 19px;
+    color          : #000000;
+    height         : 39px;
+    padding        : 10px 30px 10px 30px;
+}
+
+.about-menu__link_active {
+    color           : white;
+    background-color: #EF7F04;
+}
+
+.about-banner {
+    width              : 1200px;
+    height             : 401px;
+    background-color   : white;
+    background-image   : url(/assets/about-banner.png);
+    background-repeat  : no-repeat;
+    background-position: right;
+}
+
+.about-banner__text {
+    width      : 305px;
+    font-weight: 400;
+    font-size  : 16px;
+    line-height: 19px;
+    color      : #000;
+    margin-left: 246px;
+    margin-top : 21px;
+}
+
+.about-advantages {
+    margin-top     : 68px;
+    display        : flex;
+    flex-direction : row;
+    flex-wrap      : wrap;
+    justify-content: space-around;
+
+}
+
+.about-advantages__item {
+    margin-bottom  : 90px;
+    width          : 350px;
+    display        : flex;
+    justify-content: space-between;
+
+}
+
+.about-advantages__item_left {
+    display        : flex;
+    align-items    : flex-start;
+    justify-content: center;
+    margin-top     : 10px;
+    width          : 45%;
+}
+
+.about-advantages__item_right {
+    display       : flex;
+    flex-direction: column;
+    width         : 55%;
+}
+
+.about-advantages__item_right>h3 {
+    text-transform: uppercase;
+    color         : #2F2F51;
+    font-weight   : 700;
+    font-size     : 16px;
+    line-height   : 26px;
+    margin-bottom : 15px;
+}
+
+.about-advantages__item_right>p {
+    font-weight: 400;
+    font-size  : 16px;
+    line-height: 26px;
+}

@@ -3,35 +3,41 @@ main {
 }
 
 .block__form-bg {
-    background-image   : url(assets/form_blue.png);
+    background-image   : url(/assets/form_blue.png);
     background-position: center;
     height             : 505px;
 }
 
-.section__header {
+.section {
+    padding-top    : 55px;
+    padding-bottom : 48px;
+    text-align     : center;
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
 
+}
+
+.section_short {
+    padding-bottom: 22px;
+}
+
+.section-header {
     color      : #2F2F51;
     font-weight: 700;
     font-size  : 22px;
     line-height: 23px;
-    height     : 128px;
-
 }
 
-.section__header>h2 {
-    padding-top : 63px;
-    padding-left: 500px;
+.block-services {
+    display        : flex;
+    flex-direction : row;
+    flex-wrap      : wrap;
+    justify-content: center;
+    height         : 495px;
 }
 
-.block__services {
-    display       : flex;
-    flex-direction: row;
-    flex-wrap     : wrap;
-    margin-left   : 25px;
-    height        : 495px;
-}
-
-.services__card {
+.block-services__card {
     width        : 535px;
     height       : 240px;
     box-shadow   : 5px 7px 9px 3px rgb(0 0 0 / 15%);
@@ -40,41 +46,41 @@ main {
     margin-bottom: 10px;
 }
 
-.card__windows {
-    background-image   : url(assets/card_window.png);
+.block-services__card_windows {
+    background-image   : url(/assets/card_window.png);
     background-position: center;
     background-size    : cover;
 }
 
-.card__balcony {
-    background-image   : url(assets/card_balcony.png);
+.block-services__card_balcony {
+    background-image   : url(/assets/card_balcony.png);
     background-position: center;
 }
 
-.card_cottage {
-    background-image   : url(assets/card_cottage.png);
-    background-position: center;
-    background-size    : cover;
-}
-
-.card_building {
-    background-image   : url(assets/card_building.png);
+.block-services__card_cottage {
+    background-image   : url(/assets/card_cottage.png);
     background-position: center;
     background-size    : cover;
 }
 
-.services__card-header {
+.block-services__card_building {
+    background-image   : url(/assets/card_building.png);
+    background-position: center;
+    background-size    : cover;
+}
+
+.services-card__position {
     display       : flex;
     flex-direction: row;
     margin        : 53px 0 0 43px;
 }
 
-.services__card-header>img {
+.services-card__logo {
     width : 65px;
     height: 70px;
 }
 
-.services__card-header>h3 {
+.services-card__header {
     color      : #2F2F51;
     font-weight: 700;
     font-size  : 22px;
@@ -82,7 +88,7 @@ main {
     padding    : 10px 0 0 15px;
 }
 
-.services__card>p {
+.services-card__content {
     font-weight: 400;
     font-size  : 14px;
     line-height: 19px;
