@@ -5,34 +5,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="/styles/reset.css">
+    <link rel="stylesheet" href="/styles/header.css">
+    <link rel="stylesheet" href="/styles/services.css">
+    <link rel="stylesheet" href="/styles/about.css">
     <title>Document</title>
 </head>
 
 <body>
     <header>
         <div class="container">
-            <div class="block__header">
-                <img class="header__img" src="assets/logo.svg" alt="logo">
-                <nav class="header__nav">
-                    <ul class="header__nav-ul">
-                        <li><a href="#" class="nav__ul-link">Услуги</a></li>
-                        <li><a href="#" class="nav__ul-link">Продукция</a></li>
-                        <li><a href="#" class="nav__ul-link">О&nbsp;компании</a></li>
-                        <li><a href="#" class="nav__ul-link">Портфолио</a></li>
-                        <li><a href="#" class="nav__ul-link">Вопрос-ответ</a></li>
-                        <li><a href="#" class="nav__ul-link">Контакты</a></li>
+            <div class="header">
+                <img class="logo" src="assets/logo.svg" alt="logo">
+                <nav class="header-menu">
+                    <ul class="header-menu__nav">
+                        <li><a href="#" class="header-menu__link">Услуги</a></li>
+                        <li><a href="#" class="header-menu__link">Продукция</a></li>
+                        <li><a href="#" class="header-menu__link">О&nbsp;компании</a></li>
+                        <li><a href="#" class="header-menu__link">Портфолио</a></li>
+                        <li><a href="#" class="header-menu__link">Вопрос-ответ</a></li>
+                        <li><a href="#" class="header-menu__link">Контакты</a></li>
                     </ul>
                 </nav>
-                <div class="block__header-btn">
-                    <button class="header__btn btn__margin-right"><img class="btn__img"
-                            src="assets/measuring_header.svg" alt="decoration">Заявка
-                        на замер</button>
-                    <button class="header__btn"><img class="btn__img" src="assets/calculation_header.svg"
-                            alt="">Заказать
-                        расчет</button>
+                <div class="header-btn">
+                    <button class="btn btn__margin-right">
+                        <img class="btn__img" src="assets/measuring_header.svg" alt="decoration">
+                        Заявка на замер
+                    </button>
+                    <button class="btn">
+                        <img class="btn__img" src="assets/calculation_header.svg" alt="decoration">
+                        Заказать расчет
+                    </button>
                 </div>
             </div>
         </div>
@@ -47,57 +50,168 @@
         </section>
         <section>
             <div class="container">
-                <div class="section__header">
-                    <h2>Наши услуги</h2>
+                <div class="section">
+                    <h2 class="section-header">Наши услуги</h2>
                 </div>
-                <div class="block__services">
-                    <div class="services__card card__windows">
-                        <div class="services__card-header">
-                            <img src="assets/logo_window.svg" alt="logo">
-                            <h3>Установка<br>пластиковых окон</h3>
+                <div class="block-services">
+                    <div class="block-services__card block-services__card_windows">
+                        <div class="services-card">
+                            <div class="services-card__position">
+                                <img class="services-card__logo" src="assets/logo_window.svg" alt="logo">
+                                <h3 class="services-card__header">Установка<br>пластиковых окон</h3>
+                            </div>
+                            <p class="services-card__content">
+                                Устанавливаем пластиковые окна <br>
+                                Rehau от&nbsp;проверенного производителя <br>
+                                с&nbsp;гарантией качества
+                            </p>
                         </div>
-                        <p>
-                            Устанавливаем пластиковые окна <br>
-                            Rehau от&nbsp;проверенного производителя <br>
-                            с&nbsp;гарантией качества
-                        </p>
                     </div>
-                    <div class="services__card card__balcony">
-                        <div class="services__card-header">
-                            <img src="assets/logo_balcony.svg" alt="logo">
-                            <h3>Остекление балконов <br>и&nbsp;лоджий</h3>
+                    <div class="block-services__card block-services__card_balcony">
+                        <div class="services-card">
+                            <div class="services-card__position">
+                                <img class="services-card__logo" src="assets/logo_balcony.svg" alt="logo">
+                                <h3 class="services-card__header">Остекление балконов <br>и&nbsp;лоджий</h3>
+                            </div>
+                            <p class="services-card__content">
+                                Занимаемся остеклением и&nbsp;отделкой <br>
+                                балконов и&nbsp;лоджий. Теплое и&nbsp;холодное <br>
+                                остекление, изготовление выносов и&nbsp;крыш. <br>
+                                Беремся за&nbsp;сложные объекты
+                            </p>
                         </div>
-                        <p>
-                            Занимаемся остеклением и&nbsp;отделкой <br>
-                            балконов и&nbsp;лоджий. Теплое и&nbsp;холодное <br>
-                            остекление, изготовление выносов и&nbsp;крыш. <br>
-                            Беремся за&nbsp;сложные объекты
-                        </p>
                     </div>
-                    <div class="services__card card_cottage">
-                        <div class="services__card-header">
-                            <img src="assets/logo_cottage.svg" alt="logo">
-                            <h3>Остекление <br>коттеджей и&nbsp;дач</h3>
+                    <div class="block-services__card block-services__card_cottage">
+                        <div class="services-card">
+                            <div class="services-card__position">
+                                <img class="services-card__logo" src="assets/logo_cottage.svg" alt="logo">
+                                <h3 class="services-card__header">Остекление <br>коттеджей и&nbsp;дач</h3>
+                            </div>
+                            <p class="services-card__content">
+                                Остекление и&nbsp;отделка под ключ:<br>
+                                от&nbsp;коттеджей и&nbsp;дач до&nbsp;террас<br>
+                                и&nbsp;беседок. Выделяем личного<br>
+                                технолога под каждый объект<br>
+                            </p>
                         </div>
-                        <p>
-                            Остекление и&nbsp;отделка под ключ:<br>
-                            от&nbsp;коттеджей и&nbsp;дач до&nbsp;террас<br>
-                            и&nbsp;беседок. Выделяем личного<br>
-                            технолога под каждый объект<br>
-                        </p>
                     </div>
-                    <div class="services__card card_building">
-                        <div class="services__card-header">
-                            <img src="assets/logo_building.svg" alt="logo">
-                            <h3>Остекление <br>корпоративных объектов</h3>
+                    <div class="block-services__card block-services__card_building">
+                        <div class="services-card">
+                            <div class="services-card__position">
+                                <img class="services-card__logo" src="assets/logo_building.svg" alt="logo">
+                                <h3 class="services-card__header">Остекление <br>корпоративных объектов</h3>
+                            </div>
+                            <p class="services-card__content">
+                                Реализуем сложные проекты<br>
+                                по&nbsp;остеклению торговых центров,<br>
+                                ресторанов, производственных помещений<br>
+                                и&nbsp;офисов<br>
+                            </p>
                         </div>
-                        <p>
-                            Реализуем сложные проекты<br>
-                            по&nbsp;остеклению торговых центров,<br>
-                            ресторанов, производственных помещений<br>
-                            и&nbsp;офисов<br>
-                        </p>
                     </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="section section_short">
+                    <h2 class="section-header ">О компании</h2>
+                </div>
+                <div class="block-about">
+                    <div class="block-about__menu">
+                        <ul class="about-menu">
+                            <li><a href="#" class="about-menu__link about-menu__link_active">Описание</a></li>
+                            <li><a href="#" class="about-menu__link">Как мы работаем </a></li>
+                            <li><a href="#" class="about-menu__link">Отзывы</a></li>
+                            <li><a href="#" class="about-menu__link">Сертификаты</a></li>
+                        </ul>
+                    </div>
+                    <div class="about-banner">
+                        <img class="logo logo_large" src="assets/logo.svg" alt="logo">
+                        <div class="about-banner__text">
+                            <p>
+                                Мы&nbsp;помогаем клиентам подбирать решения,
+                                учитывая пожежелания к&nbsp;характеристикам
+                                окна и&nbsp;его стоимости. Окно&nbsp;&mdash;
+                                это объект, которым&nbsp;Вы будете пользоваться
+                                много лет, поэтому для нас очень важно,
+                                чтобы&nbsp;Вы сделали правильный выбор.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="about-advantages">
+                        <div class="about-advantages__item">
+                            <div class="about-advantages__item_left">
+                                <img src="/assets/advtg__item-expert.svg" width="87px" height="79px" alt="decoration">
+                            </div>
+                            <div class="about-advantages__item_right">
+                                <h3>профессионализм</h3>
+                                <p>Бригада профессиональных
+                                    мастеров по&nbsp;монтажу
+                                    и&nbsp;обслуживанию
+                                </p>
+                            </div>
+                        </div>
+                        <div class="about-advantages__item">
+                            <div class="about-advantages__item_left">
+                                <img src="/assets/advtg__item-pricing.svg" alt="decoration">
+                            </div>
+                            <div class="about-advantages__item_right">
+                                <h3>Ценообразование</h3>
+                                <p>Лучшие цены на&nbsp;рынке
+                                    пластиковых окон
+                                </p>
+                            </div>
+                        </div>
+                        <div class="about-advantages__item">
+                            <div class="about-advantages__item_left">
+                                <img src="/assets/advtg__item-mobility.svg" alt="decoration">
+                            </div>
+                            <div class="about-advantages__item_right">
+                                <h3>Мобильность</h3>
+                                <p>Заключение договора
+                                    на&nbsp;дому
+                                </p>
+                            </div>
+                        </div>
+                        <div class="about-advantages__item">
+                            <div class="about-advantages__item_left">
+                                <img src="/assets/advtg__item-loyalty.svg" alt="decoration">
+                            </div>
+                            <div class="about-advantages__item_right">
+                                <h3>Лояльность</h3>
+                                <p>99% клиентов рекомендуют
+                                    нас своим друзьям
+                                </p>
+                            </div>
+                        </div>
+                        <div class="about-advantages__item">
+                            <div class="about-advantages__item_left">
+                                <img src="/assets/advtg__item-speed.svg" width="82px" alt="decoration">
+                            </div>
+                            <div class="about-advantages__item_right">
+                                <h3>Скорость</h3>
+                                <p>Короткие сроки
+                                    установки изделий
+                                </p>
+                            </div>
+                        </div>
+                        <div class="about-advantages__item">
+                            <div class="about-advantages__item_left">
+                                <img src="/assets/advtg__item-quality.svg" alt="decoration">
+                            </div>
+                            <div class="about-advantages__item_right">
+                                <h3>Служба качества</h3>
+                                <p>Безупречное качество
+                                    и&nbsp;контроль изделий ПВХ
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn btn_large">
+                        <img class="btn__img" src="assets/measuring_header.svg" alt="decoration">
+                        Оформить заявку на замер
+                    </button>
                 </div>
             </div>
         </section>
