@@ -3,7 +3,7 @@ main {
 }
 
 .block__form-bg {
-    background-image   : url(/assets/form_blue.png);
+    background-image   : url(../assets/form_blue.png);
     background-position: center;
     height             : 505px;
 }
@@ -47,24 +47,24 @@ main {
 }
 
 .block-services__card_windows {
-    background-image   : url(/assets/card_window.png);
+    background-image   : url(../assets/card_window.png);
     background-position: center;
     background-size    : cover;
 }
 
 .block-services__card_balcony {
-    background-image   : url(/assets/card_balcony.png);
+    background-image   : url(../assets/card_balcony.png);
     background-position: center;
 }
 
 .block-services__card_cottage {
-    background-image   : url(/assets/card_cottage.png);
+    background-image   : url(../assets/card_cottage.png);
     background-position: center;
     background-size    : cover;
 }
 
 .block-services__card_building {
-    background-image   : url(/assets/card_building.png);
+    background-image   : url(../assets/card_building.png);
     background-position: center;
     background-size    : cover;
 }
