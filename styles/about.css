@@ -34,7 +34,7 @@
     width              : 1200px;
     height             : 401px;
     background-color   : white;
-    background-image   : url(./assets/about-banner.png);
+    background-image   : url(../assets/about-banner.png);
     background-repeat  : no-repeat;
     background-position: right;
 }
