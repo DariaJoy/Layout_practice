@@ -22,6 +22,10 @@ body {
     height         : 89px;
 }
 
+.header-logo {
+    display: flex;
+}
+
 .logo {
     width : 80px;
     height: 63px;
@@ -37,11 +41,7 @@ body {
 .header-menu__nav {
     display       : flex;
     flex-direction: row;
-}
-
-.header-menu__nav>li {
-    padding-right: 25px;
-
+    gap           : 25px;
 }
 
 .header-menu__link {

@@ -1,0 +1,46 @@
+@media (max-width:1600px) {
+    #header-logo__burger {
+        display: none;
+    }
+}
+
+@media (max-width: 1100px) {
+    .header {
+        justify-content: space-between;
+    }
+
+    #header-logo__burger {
+        display     : block;
+        margin-right: 44px;
+    }
+
+    .header-menu {
+        display: none;
+    }
+
+    .container {
+        width : 830px;
+        margin: 0 auto;
+    }
+
+    .form {
+        display        : flex;
+        justify-content: flex-start
+    }
+
+    .form-info {
+        margin: 100px 0 0 0;
+    }
+
+    .form-content {
+        display: none;
+    }
+
+    .form-bgr {
+        display: none;
+    }
+
+    .block-form-bg {
+        background-position-x: -250px;
+    }
+}
