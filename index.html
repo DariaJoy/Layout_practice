@@ -9,14 +9,19 @@
     <link rel="stylesheet" href="./styles/header.css">
     <link rel="stylesheet" href="./styles/services.css">
     <link rel="stylesheet" href="./styles/about.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="./styles/form.css">
+    <link rel="stylesheet" href="./styles/media.css">
+    <title>Окна Хаус</title>
 </head>
 
 <body>
     <header>
         <div class="container">
             <div class="header">
-                <img class="logo" src="./assets/logo.svg" alt="logo">
+                <div class="header-logo">
+                    <img id="header-logo__burger" src="./assets/burger-menu.svg" alt="menu">
+                    <img class="logo" src="./assets/logo.svg" alt="logo">
+                </div>
                 <nav class="header-menu">
                     <ul class="header-menu__nav">
                         <li><a href="#" class="header-menu__link">Услуги</a></li>
@@ -42,9 +47,73 @@
     </header>
     <main>
         <section>
-            <div class="block__form-bg">
+            <div class="block-form-bg">
                 <div class="container">
+                    <div class="form">
+                        <div class="form-info">
+                            <div class="info-header">
+                                <h1 class="section-header section-header_orange">Окна Хауз - </h1>
+                                <p>Профессиональный подход <br>
+                                    к остеклению</p>
+                            </div>
+                            <div class="info-advantages">
+                                <div class="info-advantages__item">
+                                    <img src="./assets/info__item_modern.svg" width="92px" height="79" alt="decoration">
+                                    <p>
+                                        Современные окна <br>
+                                        и&nbsp;балконные конструкции <br>
+                                        по&nbsp;доступным ценам <br>
+                                    </p>
+                                </div>
+                                <div class="info-advantages__item">
+                                    <img src="./assets/info__item_experience.svg" width="69" height="79" alt="">
+                                    <p>
+                                        Квалифицированный <br>
+                                        подход к&nbsp;решению задач <br>
+                                        любой сложности <br>
+                                    </p>
+                                </div>
+                                <div class="info-advantages__item">
+                                    <img src="./assets/info__item_warranty.svg" width="73" height="83" alt="">
+                                    <p>
+                                        Гарантия <br>
+                                        высочайшего качества <br>
+                                        нашей продукции <br>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-bgr">
+                            <form action="#">
+                                <fieldset class="form-content">
+                                    <legend class="form-content__header">
+                                        <h4>
+                                            Вызвать замершика на дом
+                                        </h4>
+                                    </legend>
+                                    <input class="form-content__input form-content__input_name"
+                                        placeholder="Представьтесь, пожалуйста" type="text">
+                                    <input class="form-content__input form-content__input_tel" placeholder="Телефон"
+                                        type="text">
+                                    <input class="form-content__input form-content__input_email" placeholder="Email"
+                                        type="email">
+                                    <div class="form-content__placement">
+                                        <input class="form-content__checkbox" type="checkbox" id="checkbox">
+                                        <label for="checkbox">
+                                            Согласен на&nbsp;обработку персональных данных <br>
+                                            в&nbsp;соответствии
+                                            <a class="form-content__link" href="#"
+                                                target="_blank">с&nbsp;политикой&nbsp;конфиденциальности</a>
+                                        </label>
+                                    </div>
 
+                                    <button class="form-content__btn">Отправить заявку</button>
+                                </fieldset>
+
+                            </form>
+                            <img src="./assets/reel.png" alt="decoration">
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>

@@ -2,12 +2,6 @@ main {
     background-color: #F2F2F2;
 }
 
-.block__form-bg {
-    background-image   : url(../assets/form_blue.png);
-    background-position: center;
-    height             : 505px;
-}
-
 .section {
     padding-top    : 55px;
     padding-bottom : 48px;
@@ -27,6 +21,10 @@ main {
     font-weight: 700;
     font-size  : 22px;
     line-height: 23px;
+}
+
+.section-header_orange {
+    color: #EF7F04;
 }
 
 .block-services {
