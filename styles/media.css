@@ -43,4 +43,36 @@
     .block-form-bg {
         background-position-x: -250px;
     }
+
+    .block-services {
+        display       : flex;
+        gap           : 38px;
+        flex-wrap     : nowrap;
+        flex-direction: column;
+        align-items   : center;
+        height        : auto;
+    }
+
+    .about-banner {
+        width                : 880px;
+        background-position-x: 450px;
+
+    }
+
+    .logo_large {
+        margin-left: 14px;
+    }
+
+    .about-banner__text {
+        margin-left: 104px;
+    }
+
+    #portfolio-items__last {
+        display: none;
+    }
+
+    .feedback-details {
+        width: 750px;
+    }
+
 }

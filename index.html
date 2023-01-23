@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="./styles/about.css">
     <link rel="stylesheet" href="./styles/form.css">
     <link rel="stylesheet" href="./styles/media.css">
+    <link rel="stylesheet" href="./styles/portfolio.css">
+    <link rel="stylesheet" href="./styles/feedback.css">
+    <link rel="stylesheet" href="./styles/footer.css">
     <title>Окна Хаус</title>
 </head>
 
@@ -184,12 +187,12 @@
         <section>
             <div class="container">
                 <div class="section section_short">
-                    <h2 class="section-header ">О компании</h2>
+                    <h2 class="section-header">О компании</h2>
                 </div>
                 <div class="block-about">
                     <div class="block-about__menu">
                         <ul class="about-menu">
-                            <li><a href="#" class="about-menu__link about-menu__link_active">Описание</a></li>
+                            <li><a href="#" class="about-menu__link">Описание</a></li>
                             <li><a href="#" class="about-menu__link">Как мы работаем </a></li>
                             <li><a href="#" class="about-menu__link">Отзывы</a></li>
                             <li><a href="#" class="about-menu__link">Сертификаты</a></li>
@@ -284,8 +287,85 @@
                 </div>
             </div>
         </section>
+        <section>
+            <div class="container">
+                <div class="portfolio-banner">
+                    <div class="section">
+                        <h2 class="section-header">Портфолио</h2>
+                    </div>
+                    <div class="portfolio-items">
+                        <img src="./assets/portfolio-item-1.png" alt="item">
+                        <img src="./assets/portfolio-item-2.png" alt="item">
+                        <img src="./assets/portfolio-item-3.png" alt="item">
+                        <img src="./assets/portfolio-item-4.png" id="portfolio-items__last" alt="item">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="feedback-bgr">
+                    <div class="section">
+                        <h2 class="section-header section-header_white">Вопрос-ответ</h2>
+                    </div>
+                    <div class="feedback-details">
+                        <details class="details__item">
+                            <summary class="details__item-summary">
+                                Сколько по времени занимает изготовление пластиковых окон?
+                            </summary>
+                            <p class="details__item-p">Какой-то текст</p>
+                        </details>
+                        <details class="details__item">
+                            <summary class="details__item-summary">
+                                Какие существуют способы оплаты?
+                            </summary>
+                            <p class="details__item-p">Какой-то текст</p>
+                        </details>
+                        <details class="details__item">
+                            <summary class="details__item-summary">
+                                Где я могу посмотреть образцы?
+                            </summary>
+                            <p class="details__item-p">Какой-то текст</p>
+                        </details>
+                        <details class="details__item">
+                            <summary class="details__item-summary">
+                                Зачем вызывать замерщика? Я могу дать размеры
+                            </summary>
+                            <p class="details__item-p">Какой-то текст</p>
+                        </details>
+                        <details class="details__item">
+                            <summary class="details__item-summary">
+                                Хотелось бы отделать балкон. Поможете?
+                            </summary>
+                            <p class="details__item-p">Какой-то текст</p>
+                        </details>
+                        <details class="details__item">
+                            <summary class="details__item-summary">
+                                Мне надо нанимать грузчиков для подъема?
+                            </summary>
+                            <p class="details__item-p">Нет, команда мастеров все сами аккуратно доставят и внесут.</p>
+                        </details>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
-
+    <footer>
+        <div class="footer-bgr">
+            <div class="container">
+                <div class="footer-placement">
+                    <div class="footer-logo">
+                        <img src="./assets/logo-footer.svg" width="55px" height="39px" alt="logo">
+                        <h5 class="footer-titel">&copy;&nbsp;ООО &laquo;Окна Хаус&raquo;, 2011&nbsp;&mdash; 2022</h5>
+                    </div>
+                    <div class="footer-legends">
+                        <a href="#">Политика кофиденциальности</a>
+                        <a href="#">Пользовательское соглашение</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>

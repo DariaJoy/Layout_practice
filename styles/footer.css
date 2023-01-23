@@ -1,0 +1,40 @@
+.footer-bgr {
+    background: #2F2F51;
+}
+
+.footer-placement {
+    display        : flex;
+    justify-content: space-between;
+    height         : 146px;
+}
+
+.footer-logo {
+    display    : flex;
+    align-items: center;
+    gap        : 22px;
+}
+
+.footer-titel {
+    color      : white;
+    font-weight: 400;
+    font-size  : 16px;
+    line-height: 20px;
+}
+
+.footer-legends {
+    display    : flex;
+    align-items: center;
+    gap        : 22px;
+}
+
+.footer-legends>a {
+    text-decoration: none;
+    color          : white;
+    font-weight    : 400;
+    font-size      : 14px;
+    line-height    : 36px;
+}
+
+.footer-legends>a:hover {
+    color: #EF7F1A;
+}

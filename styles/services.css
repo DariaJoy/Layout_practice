@@ -27,6 +27,10 @@ main {
     color: #EF7F04;
 }
 
+.section-header_white {
+    color: white;
+}
+
 .block-services {
     display        : flex;
     flex-direction : row;
