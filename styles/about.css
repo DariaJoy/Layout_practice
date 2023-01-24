@@ -25,7 +25,8 @@
     padding        : 10px 30px 10px 30px;
 }
 
-.about-menu__link_active {
+.about-menu__link:hover,
+.about-menu__link:focus {
     color           : white;
     background-color: #EF7F04;
 }
